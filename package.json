@@ -1,0 +1,37 @@
+{
+  "name": "sparkf",
+  "version": "1.0.0",
+  "description": "js function library",
+  "main": "main.umd.js",
+  "scripts": {
+    "dev": "rollup -w -c",
+    "build": "rollup -c",
+    "pub": "rollup -c && cp package.json README.md dist && node scripts/publish.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccjr1120/sparkf-js.git"
+  },
+  "keywords": [
+    "tool"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccjr1120/sparkf-js/issues"
+  },
+  "homepage": "https://github.com/ccjr1120/sparkf-js#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "commander": "^9.1.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.3.0",
+    "rollup": "^2.70.1",
+    "shelljs": "^0.8.5",
+    "typescript": "^4.6.2"
+  }
+}
