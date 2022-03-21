@@ -1,6 +1,6 @@
 {
-  "name": "sparkf",
-  "version": "1.0.0",
+  "name": "sparkf-js",
+  "version": "0.0.1",
   "description": "js function library",
   "main": "main.umd.js",
   "scripts": {
