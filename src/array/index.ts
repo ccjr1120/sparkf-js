@@ -1,3 +1,3 @@
-import takeOneAtRandom from './takeOneAtRandom';
+import takeSomeValsAtRand from './takeSomeValsAtRand';
 
-export default { takeOneAtRandom };
+export default { takeSomeValsAtRand };
